@@ -6,4 +6,8 @@ class PostsController < ApplicationController
 
   end
 
+  def index
+    render 'index'
+  end
+
 end
